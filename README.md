@@ -8,6 +8,10 @@ El dashboard permite explorar el dataset y analizar relaciones entre precio,
 año del vehículo y kilometraje, facilitando el análisis exploratorio de datos (EDA) mediante
 visualizaciones dinámicas.
 
+## Demo
+Aplicación desplegada en Streamlit Cloud:
+https://dashboard-autos-sofcast27.streamlit.app/
+
 ## Funcionalidades
 - Visualización de un histograma del kilometraje (odómetro).
 - Gráfico de dispersión para analizar la relación entre el precio y el año del vehículo.
