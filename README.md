@@ -1,20 +1,28 @@
-# mi_proyecto_sprint7
-Proyecto parte del Sprint 7 para construir y desplegar un panel de control web con Streamlit, pandas y plotly-express.
+# Dashboard de Anuncios de Autos
 
-# Descripción: 
-Dashboard de anuncios de autos.
+## Descripción
+Proyecto desarrollado con Python y Streamlit para la construcción y despliegue de un panel de
+control interactivo orientado al análisis de anuncios de venta de autos.
 
-# Funcionalidades:
-- Visualizar un histograma del odómetro.
-- Visualizar un gráfico de dispersión (precio vs año del vehículo).
-- Interfaz interactiva creada con Streamlit y Plotly.
+El dashboard permite explorar el dataset y analizar relaciones entre precio,
+año del vehículo y kilometraje, facilitando el análisis exploratorio de datos (EDA) mediante
+visualizaciones dinámicas.
 
-# Tecnologías:
+## Funcionalidades
+- Visualización de un histograma del kilometraje (odómetro).
+- Gráfico de dispersión para analizar la relación entre el precio y el año del vehículo.
+- Interfaz interactiva desarrollada con Streamlit.
+- Visualizaciones creadas con Plotly Express.
+
+## Tecnologías
 - Python
 - Pandas
 - Plotly Express
 - Streamlit
 
-# Ejecución:
-Para ejecutar la app localmente en la terminal e VSCode:
->> streamlit run app.py
+## Ejecución local
+1. Clonar el repositorio.
+2. Instalar dependencias:
+   pip install -r requirements.txt
+3. Ejecutar la aplicación:
+   streamlit run app.py
